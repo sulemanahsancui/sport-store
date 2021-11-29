@@ -6,7 +6,7 @@ const Work = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:4000/api/items")
+      .get("https://sport-store-cricket.herokuapp.com/api/items")
       .then((res) => {
         setItems(res.data);
         console.log(res);

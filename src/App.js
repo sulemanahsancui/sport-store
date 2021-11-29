@@ -12,8 +12,8 @@ import Register from "./component/register/Register";
 
 function App() {
   // const [username, setUsername] = useState(true);
-  const { username } = JSON.parse(localStorage.getItem("user"));
-  console.log(username);
+  // const { username } = JSON.parse(localStorage.getItem("user"));
+  // console.log(username);
   return (
     <div className="App">
       <Router>
