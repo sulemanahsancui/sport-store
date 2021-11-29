@@ -1,16 +1,14 @@
 import React from "react";
-// import PropTypes from 'prop-types'
+import "./about.scss";
 
-const About = (props) => {
+const About = () => {
   return (
-    <div>
-      <h1>About us</h1>
-    </div>
+    <>
+      <div className="">
+        <h1> Suleman Ahsan </h1>
+      </div>
+    </>
   );
 };
-
-// About.propTypes = {
-
-// }
 
 export default About;
