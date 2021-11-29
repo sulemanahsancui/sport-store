@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./component/footer/Footer";
 import Login from "./component/login/Login";
 import Register from "./component/register/Register";
+import Product from "./component/product/Product";
 
 function App() {
   // const [username, setUsername] = useState(true);
@@ -24,7 +25,7 @@ function App() {
           <Route exact path="/work" element={<Work />} />
           <Route path="*" element={<Error />} />
           <Route exact path="/sign" element={<Register />} />
-
+          <Route exact path="/add-product" element={<Product />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
       </Router>

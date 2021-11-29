@@ -51,6 +51,11 @@ const Navbar = () => {
                   Register
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/add-product">
+                  Add Product
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
